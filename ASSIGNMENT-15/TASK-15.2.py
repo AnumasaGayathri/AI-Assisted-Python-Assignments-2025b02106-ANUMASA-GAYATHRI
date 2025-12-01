@@ -1,7 +1,7 @@
 
 import requests # type: ignore
 import json
-API_KEY = 44772518fccd2cd9bac7667117e5bf29
+API_KEY = "44772518fccd2cd9bac7667117e5bf29"
 def get_weather_with_errors(city):
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     try:
@@ -22,3 +22,4 @@ def get_weather_with_errors(city):
     return None
 
 get_weather_with_errors("WARANGAL")
+
