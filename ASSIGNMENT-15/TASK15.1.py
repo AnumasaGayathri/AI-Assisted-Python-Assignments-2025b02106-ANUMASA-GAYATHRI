@@ -2,7 +2,7 @@
 import requests # type: ignore
 import json
 from datetime import datetime
-API_KEY = 44772518fccd2cd9bac7667117e5bf29
+API_KEY = "44772518fccd2cd9bac7667117e5bf29"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def get_weather(city):
@@ -68,3 +68,4 @@ def get_weather(city):
 # ✅ CALL THE FUNCTION HERE
 
 get_weather("WARANGAL")   # ← required!
+
