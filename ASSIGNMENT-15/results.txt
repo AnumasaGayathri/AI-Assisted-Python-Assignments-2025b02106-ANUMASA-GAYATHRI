@@ -1,0 +1,5 @@
+{"city": "Hyderabad", "temperature": 23.23, "humidity": 60, "weather": "Haze", "time": "2025-11-30 18:53:39.505397"}
+{"city": "Warangal", "temperature": 21.53, "humidity": 62, "weather": "Overcast Clouds", "time": "2025-11-30 18:55:49.186851"}
+{"city": "Warangal", "temperature": 21.53, "humidity": 62, "weather": "Overcast Clouds", "time": "2025-11-30 18:56:43.837429"}
+{"city": "London", "temp": 8.47, "humidity": 71, "weather": "Clear Sky"}
+{"city": "Delhi", "temp": 16.05, "humidity": 55, "weather": "Haze"}
