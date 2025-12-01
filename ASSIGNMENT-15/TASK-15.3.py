@@ -1,7 +1,7 @@
 
 import requests # type: ignore
 import json
-API_KEY = "e6c6083509fc4d450cde0ca4414b3a9f"
+API_KEY = 44772518fccd2cd9bac7667117e5bf29
 def get_weather_with_errors(city):
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     try:
@@ -36,4 +36,5 @@ def get_weather_pretty(city):
 res = get_weather_pretty("London")
 assert "city" in res
 assert "temp" in res
+
 assert "weather" in res
